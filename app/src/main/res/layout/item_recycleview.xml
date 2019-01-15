@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.wlf.commonlib.widget.CommonRecycleViewItem
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/recycleview_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:dividingLineHeight="1dp"
+        app:dividingLineLeftPadding="15dp"
+        app:showDividingLine="true"
+        app:leftTextColor="@color/colorPrimaryDark"
+        app:leftTextSize="15sp"
+        app:rightType="textView"
+        app:rightTextColor="@color/colorPrimary"
+        app:rightTextSize="13sp"/>
+
+</LinearLayout>

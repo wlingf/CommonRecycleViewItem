@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonRecycleViewItem">
+
+        <!-- 左边视图类型 -->
+        <!-- TextView 文字, 对应leftType_TextView -->
+        <attr name="leftText" format="string" />
+        <!-- TextView 颜色, 对应leftType_TextView -->
+        <attr name="leftTextColor" format="color" />
+        <!-- TextView 字体大小, 对应leftType_TextView -->
+        <attr name="leftTextSize" format="dimension" />
+        <!-- TextView 左边图片, 对应leftType_TextView -->
+        <attr name="leftDrawable" format="reference" />
+        <!-- TextView 左边padding, 对应leftType_TextView -->
+        <attr name="leftDrawablePadding" format="dimension" />
+        <!-- ImageView 资源, 对应leftType_Image -->
+        <attr name="leftImageResource" format="reference" />
+
+
+        <!-- 右边视图类型 -->
+        <attr name="rightType">
+            <enum name="none" value="0" />
+            <enum name="textView" value="1" />
+            <enum name="imageButton" value="2" />
+        </attr>
+        <!-- TextView 文字, 对应rightType_TextView -->
+        <attr name="rightText" format="string" />
+        <!-- TextView 颜色, 对应rightType_TextView -->
+        <attr name="rightTextColor" format="color" />
+        <!-- TextView 字体大小, 对应rightType_TextView -->
+        <attr name="rightTextSize" format="dimension" />
+        <!-- ImageView 资源, 对应rightType_ImageButton -->
+        <attr name="rightImageResource" format="reference" />
+
+
+        <!-- item分割线显示/隐藏  默认不显示 -->
+        <attr name="showDividingLine" format="boolean" />
+        <!-- item分割线颜色 -->
+        <attr name="dividingLineColor" format="color" />
+        <!-- item分割线高度 -->
+        <attr name="dividingLineHeight" format="dimension" />
+        <!-- item分割线左边距 -->
+        <attr name="dividingLineLeftPadding" format="dimension" />
+        <!-- item分割线右边距 -->
+        <attr name="dividingLineRightPadding" format="dimension" />
+    </declare-styleable>
+</resources>
